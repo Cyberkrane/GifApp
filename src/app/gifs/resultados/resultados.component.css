@@ -1,0 +1,23 @@
+section {
+    height: 80vh;
+    margin-top: 60px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+ section article {
+    width: 15rem;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(17, 19, 21);
+    border-radius: 5px;
+    box-shadow: inset aliceblue 2px 2px 5px, rgb(43, 46, 49) 2px 2px 3px;
+  }
+  section article h3 {
+    font-size: 100%;
+    text-align: center;
+  }
+ section article p {
+    padding: 20px 5px;
+  }

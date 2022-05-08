@@ -1,0 +1,31 @@
+header {
+    width: 40%;
+    left: 70px;
+    background-color: rgb(35, 42, 49);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+h1 {
+    width: 19%;
+    font-size: 100%;
+    padding: 10px 50px;
+    text-shadow: rgb(228, 239, 248) 1px 2px 5px, rgb(20, 140, 238) 2px 3px 6px;
+}
+
+form {
+    width: 80%;
+    font-size: 100%;
+    text-align: right;
+    margin-right: 0;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+form label,
+form input {
+    padding: 5px;
+}
